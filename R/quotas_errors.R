@@ -1,5 +1,5 @@
 
-default_project_message <- function(){
+is_default_project <- function(){
   is_default_project <- 
     getOption("googleAuthR.client_id") %in% c("289759286325-da3fr5kq4nl4nkhmhs2uft776kdsggbo.apps.googleusercontent.com",
                                               "289759286325-42j8nmkeq5n9v9eb1kiuj2i97v9oea1f.apps.googleusercontent.com",
